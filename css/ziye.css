@@ -1,0 +1,49 @@
+*{
+	margin:0;/*设置页面所有标签的外边距为0*/
+	padding:0;/*设置页面所有标签的内边距为0*/}
+li{
+	list-style:none;/*设置列表项无编号*/
+	text-align:center;/*设置列表项的文字居中*/
+	line-height:24px;/*设置列表项的行高*/}
+#big{
+	width: 100%;
+	height: 100%;
+	widows: auto;
+}
+.nav{
+	width: 500px;
+	height: 30px;
+	margin: 0 auto;
+}
+a{
+	text-decoration:none;/*设置超链接无下划线*/
+	color:#F0F;/*设置超链接文字颜色*/
+	font-size:16px;/*设置超链接无下划线*/
+	line-height:24px;/*设置超链接行高*/
+	display:block;/*将超级链接转换为块元素*/}
+.nav ul li{
+	width:120px;/*设置<li>标签的宽度为120像素*/
+	float:left;/*设置<li>标签向左浮动*/
+	border:1px  #333 dashed;/*设置<li>标签边框的粗细、颜色及线型*/
+	background:gray;/*设置<li>标签的背景色*/}
+
+.nav ul li ul{
+	display:none;/*设置2级菜单默认隐藏*/}
+	
+.nav ul li a:hover{
+	
+	color:#00F;/*设置hover状态是<a>标签的文字颜色*/
+	background-color:white;/*设置hover状态是<a>标签的背景颜色*/}	
+.nav ul li:hover ul,.nav ul li a:hover ul{
+	display:block;/*设置display属性为block，即显示*/
+	width:120px;/*设置2级菜单列表项宽度*/
+	height:24px;/*设置2级菜单列表项高度*/
+	}	
+.nav ul li ul li{
+	background-color:#FFC;/*设置2级菜单的背景色*/
+	width:120px;/*设置2级菜单的宽度（可自定义）*/
+	}	
+.nav ul li ul li a:hover{
+	background:#6C6;
+	color:#FFF;
+}	
